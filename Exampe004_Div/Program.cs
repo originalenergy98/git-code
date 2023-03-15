@@ -1,5 +1,7 @@
-﻿double numberA = 12;
-double numberB = 5;
+﻿double numberA = new Random().Next(1,10); //случайное целое число от 1 до 10
+Console.WriteLine(numberA);
+double numberB = new Random().Next(1,10);
+Console.WriteLine(numberB);
 Console.WriteLine(numberA / numberB);
 // типы данных:
 // int - от -2 147 483 648 до 2 147 483 647
